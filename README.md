@@ -9,6 +9,7 @@ git clone ssh://git@github.com/primecoin/brainy
 cd brainy
 pipenv shell
 pipenv install zappa flask
+pipenv install --dev awscli
 ```
 
 Test locally:
